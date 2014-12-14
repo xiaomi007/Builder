@@ -10,10 +10,10 @@ public class Main {
 		
 		Robot first = robotEngineer.getRobot();
 		
-		first.getRobotHead();
-		first.getRobotTorso();
-		first.getRobotArms();
-		first.getRobotLegs();
+		System.out.println(first.getRobotHead());
+		System.out.println(first.getRobotTorso());
+		System.out.println(first.getRobotArms());
+		System.out.println(first.getRobotLegs());
 		
 	}
 }
